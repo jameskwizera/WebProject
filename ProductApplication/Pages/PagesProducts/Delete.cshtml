@@ -19,10 +19,10 @@
             @Html.DisplayFor(model => model.Products.ProductName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Products.ProductDescription)
+           Image
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Products.ProductDescription)
+            <img src="@Html.DisplayFor(model => model.Products.ProductDescription)" height="80" width="80" alt="No Image found"></img>
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Products.Price)
